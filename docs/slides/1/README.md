@@ -4,10 +4,10 @@
 
 ---
 
-## &#8203;iOS
+iOS
 
 
-![iOS](https://developer.apple.com/ios/images/ios-11-hero-large_2x.png)
+![iOS](https://developer.apple.com/ios/images/ios-11-hero-large_2x.png) <!-- .element height="50%" -->
 
 iOS是一个苹果公司开发的运行于iPhone、iPad和iPod Touch等移动设备上的操作系统
 
@@ -18,7 +18,7 @@ iOS是一个苹果公司开发的运行于iPhone、iPad和iPod Touch等移动设
 
 ## iOS SDK
 
-![](https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Art/iOStech_intro_2x.png)
+![](https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Art/iOStech_intro_2x.png) <!-- .element height="30%" width="30%" -->
 
 - iOS SDK包含开发、安装、运行和测试iOS操作系统之上的应用软件所需的工具和接口
   - 框架（Frameworks）:  动态共享的程序库和资源
@@ -31,10 +31,9 @@ iOS是一个苹果公司开发的运行于iPhone、iPad和iPod Touch等移动设
 
 iOS 作为iOS应用软件（App）和硬件设备间的中间层提供了一组定义良好的系统接口以便你所开发的App可以方便与设备通讯交互
 
-![](https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Art/SystemLayers_2x.png)
+![](https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Art/SystemLayers_2x.png) <!-- .element height="30%"  -->
 
-这些系统接口被以框架（Frameworks）的形式交付提供给开发者使用。一个框架是一个包含了一组动态共享的程序库和相应资源(例如头文件、图片、帮助应用等) 的目录。
-
+<small>这些系统接口被以框架（Frameworks）的形式交付提供给开发者使用。一个框架是一个包含了一组动态共享的程序库和相应资源(例如头文件、图片、帮助应用等) 的目录。</small>
 ---
 
 ## Cocoa Touch层框架
@@ -80,7 +79,6 @@ iOS 作为iOS应用软件（App）和硬件设备间的中间层提供了一组�
 - Core Video Framework
 - Image I/O Framework
 - Media Player Framework
-- OpenAL Framework
 - OpenGL ES Framework
 - Quartz Core Framework
 - …
@@ -100,10 +98,6 @@ iOS 作为iOS应用软件（App）和硬件设备间的中间层提供了一组�
 - Core Telephony Framework
 - Event Kit Framework
 - Foundation Framework
-- Mobile Core Services Framework
-- Newsstand Kit Framework
-- Quick Look Framework
-- Store Kit Framework
 - System Configuration Framework
 
 ---
@@ -113,10 +107,8 @@ iOS 作为iOS应用软件（App）和硬件设备间的中间层提供了一组�
 Foundation framework (Foundation.framework) 提供了 Core Foundation框架中大部分功能特性的（Swift）封装
 
 - Collection data types (arrays, sets, and so on)
-- Bundles
-- String management
+- Bundles/String management
 - Date and time management
-- Raw data block management
 - Preferences management
 - URL and stream manipulation
 - Threads and run loops
@@ -133,6 +125,10 @@ Foundation framework (Foundation.framework) 提供了 Core Foundation框架中�
 - Core Bluetooth
 - External Accessory Framework
 - Security Framework
+- System
+
+~~
+
 - System
   - Threading
   - Networking
@@ -156,12 +152,34 @@ Foundation framework (Foundation.framework) 提供了 Core Foundation框架中�
 
 iOS技术概览（iOS Technology Overview）
 
-https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html
+<small>
+https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html</small>
 
 
 ---
 
 ## 开发工具－Xcode
+ 
+
+![Xcode](https://help.apple.com/xcode/mac/8.0/en.lproj/GlobalArt/AppLanding.png)
+
+
+<small>https://help.apple.com/xcode/mac/8.0/</small>
+
+
+---
+
+Start Developing iOS Apps
+
+<small>
+https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html
+</small>
+
+---
+
+Hello World
+
+
 ---
 
 ## The End
