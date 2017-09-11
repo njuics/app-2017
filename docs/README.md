@@ -1,7 +1,4 @@
----
-theme : "black"
-highlightTheme: "darkula"
----
+
 
 # vscode-reveal
 
