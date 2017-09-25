@@ -1,3 +1,6 @@
 [submodule "docs/reveal.js"]
 	path = docs/reveal.js
 	url = https://github.com/hakimel/reveal.js.git
+[submodule "examples/Calculator"]
+	path = examples/Calculator
+	url = https://github.com/idupclub/Calculator.git
