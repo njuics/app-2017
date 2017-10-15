@@ -6,8 +6,9 @@
 
 ## 视图控制器
 
-![](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Art/model_view_controller_2x.png) <!-- .element height="80%" width="80%" --> 
+![](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Art/model_view_controller_2x.png) <!-- .element height="40%" width="50%" --> 
 
+应用核心
 
 ---
 
@@ -22,7 +23,7 @@
 
 ## 视图管理
 
-![](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/Art/VCPG_ControllerHierarchy_fig_1-1_2x.png) <!-- .element height="50%" width="50%" --> 
+![](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/Art/VCPG_ControllerHierarchy_fig_1-1_2x.png) <!-- .element height="30%" width="30%" --> 
 
 每个视图控制器有（且仅有）一个根视图对象引用，可通过其访问到这个视图对象的所有子视图对象。一般使用[Outlet](https://developer.apple.com/library/ios/documentation/General/Conceptual/Devpedia-CocoaApp/Outlet.html)保存对视图对象的引用。
 
@@ -32,16 +33,13 @@
 ## 视图管理
 
 - 每个控制器管理一个视图（及其子视图）
-- 当你希望把某个视图显示出来时，应该将此视图对应的控制器作为应用窗口的根控制器（`rootViewController`），该视图控制器会自动将视图添加到窗口中并显示在屏幕上。
-  + ⚠️ 永远不要尝试通过将视图赋予窗口对象的方法去显示其内容
-- 视图控制器会在必要的时候加载并视图对象并显示其内容，同样，它会在合适的条件下自动释放视图（因此，视图控制器在应用中还起到管理资源的核心作用）
+- 当你希望把某个视图显示出来时，应该将此视图对应的控制器作为应用窗口的根控制器，该视图控制器会自动将视图添加到窗口中并显示在屏幕上。永远不要尝试通过将视图赋予窗口对象的方法去显示其内容⚠️ 
+- 视图控制器会在必要的时候加载并视图对象并显示其内容，同样，它会在合适的条件下自动释放视图
 
 
 ---
 
 ## 交互处理
-
-控制器负责处理视图中产生的事件
 
 - 当视图中某个按钮被按动，视图对象会获取该事件并报送给某个相关联的委托对象（delegte）或目标对象（target），一般而言，这个对象就是某个视图控制器对象
 - 视图本身并不知晓这个事件将会引发的结果，按钮按动的含义和相应的反应是调用该视图控制器的某个方法（`IBAction`）
@@ -61,7 +59,7 @@
 
 ## IBOutlet和IBAction
 
-![](http://help.apple.com/xcode/mac/9.0/en.lproj/Art/gs_connection_drag.png)
+![](http://help.apple.com/xcode/mac/9.0/en.lproj/Art/gs_connection_drag.png)  <!-- .element height="50%" width="50%" -->
 
 [Connect objects to code](http://help.apple.com/xcode/mac/9.0/#/devc06f7ee11)
 
@@ -70,7 +68,7 @@
 
 ## 数据传送
 
-![](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/Art/VCPG_CustomSubclasses_fig_1-3_2x.png) <!-- .element height="50%" width="50%" --> 
+![](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/Art/VCPG_CustomSubclasses_fig_1-3_2x.png) <!-- .element height="30%" width="35%" --> 
 
 一般过程：交互事件触发控制器方法调用；方法执行过程中从数据对象获得数据；再通过视图对象引用（Outlet）操纵视图内容。
 
@@ -80,7 +78,6 @@
 
 - OS设备是移动设备，屏幕空间非常有限（哪怕是iPad pro）
 - 应用一般会有比较丰富的信息需要显示，但屏幕不能一次性显示所有内容，因此在用户与应用交互开始时应用仅会显示部分内容，并在以后过程中不断显示或隐藏其他内容
-- 在此过程中视图控制器提供设施实现这一内容显示／隐藏的协同过程
 - 通过不同控制器和对应的视图对应用进行分割，整个应用的用户界面被以较小的单位进行管理
 
 
@@ -109,14 +106,14 @@
 
 ## 使用Segue
 
-![](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/Art/segue_defined_2x.png)
+![](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/Art/segue_defined_2x.png) <!-- .element height="50%" width="65%" --> 
 
 ---
 
 ## Unwind Segue
 
 
-![](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/Art/segue_unwind_linking_2x.png)
+![](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/Art/segue_unwind_linking_2x.png) <!-- .element height="50%" width="30%" -->
 
 
 You must define an unwind action method in one of your view controllers before trying to create the corresponding unwind segue in Interface Builder.
@@ -132,7 +129,7 @@ You must define an unwind action method in one of your view controllers before t
 
 ---
 
-##特定的分割-并列
+## 特定的分割-并列
 
 
 ![](https://docs-assets.developer.apple.com/published/6ffdd16259/a4c30adf-176b-4020-ae69-f228edb9e621.png)
@@ -237,6 +234,11 @@ You must define an unwind action method in one of your view controllers before t
 
 [View Controller Programming Guide for iOS](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS)
 
+---
+
+## 实践
+
+[Start Developing iOS Apps](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html) 
 
 
 ---

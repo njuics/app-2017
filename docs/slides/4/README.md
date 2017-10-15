@@ -7,22 +7,19 @@
 ## 视图
 
 
-![](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Art/model_view_controller_2x.png) <!-- .element height="80%" width="80%" -->
+![](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Art/model_view_controller_2x.png) <!-- .element height="40%" width="50%" -->
 
 
 可视内容
 
 ---
 
-## 涉及概念
+## 概念
 
 - **窗口**和**视图**是在iOS设备**屏幕**上用以展示App内容的部件
-  + 屏幕是iOS设备所具有的显示装置
-    - 一般而言每个iOS设备具有至少一个（主）屏幕
-  + 窗口提供了一个基本的视图的容器，窗口本身并不具有可视内容
-    - 一般而言每个应用具有一个窗口
-  + 视图占据窗口的部分区域用以显示交互界面内容
-    - 一般而言每个应用至少具有一个视图用以展示其交互界面
+  + 屏幕是iOS设备所具有的显示装置，一般而言每个iOS设备具有至少一个（主）屏幕
+  + 窗口提供了一个基本的视图的容器，窗口本身并不具有可视内容，一般而言每个应用具有一个窗口
+  + 视图占据窗口的部分区域用以显示交互界面内容，一般而言每个应用至少具有一个视图用以展示其交互界面
 
 
 ---
@@ -102,7 +99,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ## Interface Builder
 
-![](http://help.apple.com/xcode/mac/9.0/en.lproj/Art/IB_overview.png)
+![](http://help.apple.com/xcode/mac/9.0/en.lproj/Art/IB_overview.png)   <!-- .element height="50%" width="60%" -->
 
 
 [Interface Builder](http://help.apple.com/xcode/mac/9.0/#/dev31645f17f)
@@ -112,7 +109,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ## 自动布局
 
-![](http://help.apple.com/xcode/mac/9.0/en.lproj/Art/ib_al_about_auto_layout.png)
+![](http://help.apple.com/xcode/mac/9.0/en.lproj/Art/ib_al_about_auto_layout.png)<!-- .element height="50%" width="60%" -->
 
 [Auto Layout and Layout Constraints](http://help.apple.com/xcode/mac/9.0/#/devc5759ad6f)
 
