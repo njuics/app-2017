@@ -226,9 +226,11 @@ https://github.com/njuics/app-2017f/tree/master/examples/OperationQueueDemo
 
 <small>https://www.raywenderlich.com/76341/use-nsoperation-nsoperationqueue-swift</small>
 
-https://github.com/idupclub/ClassicPhotos-Serial
+Swift 4 版本
 
-https://github.com/idupclub/ClassicPhotos-Concurrent
+<small>https://github.com/idupclub/ClassicPhotos-Serial</small>
+
+<small>https://github.com/idupclub/ClassicPhotos-Concurrent</small>
 
 ---
 
