@@ -177,7 +177,7 @@ Closures are self-contained blocks of functionality that can be passed around an
 
 ## Demo
 
-https://github.com/appcoda/GCDSamples
+https://github.com/njuics/app-2017f/tree/master/examples/GCDDemo
 
 ---
 
@@ -216,7 +216,7 @@ An abstract class that represents the code and data associated with a single tas
 
 ## Demo
 
-
+https://github.com/njuics/app-2017f/tree/master/examples/OperationQueueDemo
 
 ---
 
@@ -226,6 +226,9 @@ An abstract class that represents the code and data associated with a single tas
 
 <small>https://www.raywenderlich.com/76341/use-nsoperation-nsoperationqueue-swift</small>
 
+https://github.com/idupclub/ClassicPhotos-Serial
+
+https://github.com/idupclub/ClassicPhotos-Concurrent
 
 ---
 
