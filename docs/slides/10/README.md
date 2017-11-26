@@ -5,7 +5,7 @@
 ---
 
 ## Node.js
-<small>![](https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike220%2C5%2C5%2C220%2C73/sign=635ae65776d98d1062d904634056d36b/9825bc315c6034a81358c82ac1134954082376e6.jpg)</small>
+![](https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike220%2C5%2C5%2C220%2C73/sign=635ae65776d98d1062d904634056d36b/9825bc315c6034a81358c82ac1134954082376e6.jpg)<!-- .element height="50%" width="50%" --> 
 
 [官网](https://nodejs.org/en/): Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 
@@ -58,7 +58,7 @@ REST是”REpresentational State Transfer”，一种翻译是”表现层状态
 1. 协议本身不带有状态，通信时客户端必须通过参数，表示请求不同状态的资源
 1. 状态转换通过HTTP动词表示
 
-简单来说，REST是所有web应用都应该遵守的架构设计指导原则，每一个URL代表一种资源，客户端通过四个HTTP动词，对服务器端资源进行操作，实现”表现层状态转化”
+<small>简单来说，REST是所有web应用都应该遵守的架构设计指导原则，每一个URL代表一种资源，客户端通过四个HTTP动词，对服务器端资源进行操作，实现”表现层状态转化”</small>
 
 ---
 
@@ -77,8 +77,9 @@ REST是”REpresentational State Transfer”，一种翻译是”表现层状态
 ---
 
 ## HTTP动词
+
 |操作|SQL方法|HTTP动词|
-|----|-------|--------|
+|----|:-------:|--------:|
 |CREATE|INSERT|POST|
 |READ|SELECT|GET|
 |UPDATE|UPDATE|PUT/PATCH|
@@ -95,7 +96,7 @@ DELETE /v1/stores/1234 若要删除某个资源，应该使用 DELETE 方法。
 
 ## Express
 Express 是最常用的 Node 框架，用来搭建 Web 应用，类似于Java里的Spring。
-<small>![](http://www.expressjs.com.cn/images/express.png)</small>
+![](http://www.expressjs.com.cn/images/express.png)<!-- .element height="60%" width="60%" --> 
 
 ---
 
