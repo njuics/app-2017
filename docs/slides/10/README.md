@@ -78,12 +78,12 @@ REST是”REpresentational State Transfer”，一种翻译是”表现层状态
 
 ## HTTP动词
 
-|操作|SQL方法|HTTP动词|
+| 操作      |  SQL方法   | HTTP动词   |
 | -------- | :--------: | --------: |
-|CREATE|INSERT|POST|
-|READ|SELECT|GET|
-|UPDATE|UPDATE|PUT/PATCH|
-|DELETE|DELETE|DELETE|
+| CREATE   | INSERT     | POST      |
+| READ     | SELECT     | GET       |
+| UPDATE   | UPDATE     | PUT/PATCH |
+| DELETE   | DELETE     | DELETE    |
 
 ```
 GET /v1/stores/1234 若要检索某个资源，应该使用 GET 方法。
