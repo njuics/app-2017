@@ -79,7 +79,7 @@ REST是”REpresentational State Transfer”，一种翻译是”表现层状态
 ## HTTP动词
 
 | 操作      |  SQL方法   | HTTP动词   |
-| -------- | :--------: | --------: |
+| - | :-: | -: |
 | CREATE   | INSERT     | POST      |
 | READ     | SELECT     | GET       |
 | UPDATE   | UPDATE     | PUT/PATCH |
