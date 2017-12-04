@@ -109,7 +109,7 @@ react-native run-android
 ```bash
 git clone https://github.com/lxs137/TodoListReactNative.git
 ```
-![](images/screenshot)<!-- .element height="80%" width="80%" -->
+![](images/screenshot)<!-- .element height="70%" width="70%" -->
 
 ---
 
