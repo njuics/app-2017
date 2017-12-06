@@ -37,7 +37,7 @@
 
 - Learn once, Write anywhere!
 - JavaScript只是将应用的“配置信息和业务逻辑”，告诉原生代码该如何去渲染页面，效率高
-![](images/react.png)]<!-- .element height="90%" width="90%" -->
+![](images/react.png)]<!-- .element height="75%" width="75%" -->
 
 ---
 
@@ -58,7 +58,6 @@
 ---
 
 ### TodoList APP
-![](images/screenshot)
 
 ---
 
@@ -96,20 +95,64 @@ react-native run-android
 ---
 
 #### 项目结构
-![](images/project-tree-1.png)<!-- .element height="60%" width="60%" -->
-![](images/project-tree-2.png)<!-- .element height="60%" width="60%" -->
+![](images/project-tree-1.png)
+
+---
+
+![](images/project-tree-2.png)
 
 ---
 
 #### 开发演示
-- npm安装第三方UI库
+- TodoList APP
 
 ```bash
+git clone https://github.com/lxs137/TodoListReactNative.git
+```
+![](images/screenshot)<!-- .element height="70%" width="70%" -->
+
+---
+
+#### 项目初始化
+- Step 0
+
+```bash
+git checkout step-0
+```
+
+- Step 1
+
+```bash
+git checkout step-1
+```
+
+- Step 2
+
+```bash
+git checkout step-2
 npm install --save react-native-vector-icons 
-npm install --save react-native-action-button 
-npm install --save react-native-modal 
+react-native link
+# restart simulator
+react-native run-ios
+```
+
+---
+
+- Step 3
+
+```bash
+git checkout step-3
+npm install --save react-native-action-button react-native-modal react-native-textinput-effects
+react-native link
+#restart simulator
+react-native run-ios
+```
+
+- Step 4
+
+```bash
+git checkout step-4
 npm install --save react-native-swipeable 
-npm install --save react-native-textinput-effects
 ```
 
 ---
