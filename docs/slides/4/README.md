@@ -122,15 +122,137 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ---
 
+## 编程管理视图
+
+``` swift
+class ViewController: UIViewController {
+
+    override func loadView() {
+        super.loadView()
+        let myView = UIView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        myView.backgroundColor = UIColor.green
+        self.view.addSubview(myView)
+    }
+   
+}
+```
+
+```
+    override func loadView() {
+        super.loadView()
+        let myView = UIView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        myView.backgroundColor = UIColor.green
+        self.view = myView
+    }
+```
+---
+
+> … If a view controller is owned by a window object, it acts as the window’s root view controller. The view controller’s root view is added as a subview of the window and resized to fill the window. If the view controller is owned by another view controller, then the parent view controller determines when and how the child view controller’s contents are displayed. ..
+
+<small>https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/index.html</small>
+---
+
+## 编写代码管理视图层次
+
+``` swift
+    override func loadView() {
+        super.loadView()
+        let myView = UIView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        myView.backgroundColor = UIColor.green
+        let myLabel = UILabel(frame: CGRect(x: 50, y: 50, width: 50, height: 50))
+        myLabel.backgroundColor = UIColor.red
+        myView.addSubview(myLabel)
+        let myButton = UIButton(frame: CGRect(x: 10, y: 10, width: 30, height: 30))
+        myButton.backgroundColor = UIColor.white
+        myLabel.addSubview(myButton)
+        self.view = myView
+    }
+    
+```
+
+---
+
+## 编程实现自定义视图
+
+``` swift
+import UIKit
+
+class MyView: UIView {
+    override func draw(_ rect: CGRect) {
+        if let context = UIGraphicsGetCurrentContext() {
+            let myFrame = self.bounds
+            context.setLineWidth(10.0)
+            myFrame.insetBy(dx: 15, dy: 15)
+            UIColor.blue.set()
+            UIRectFrame(myFrame)
+        }
+    }
+}
+```
+
+---
+
 ## 此外
 
 变形、缩放、旋转
 
+<small>https://developer.apple.com/documentation/coregraphics</small>
+
 ---
 
-## 参考文档
+## 旋转
 
-[View Programming Guide for iOS](https://developer.apple.com/library/content/documentation/WindowsViews/Conceptual/ViewPG_iPhoneOS/Introduction/Introduction.html)
+
+``` swift
+    override func loadView() {
+        super.loadView()
+        let myView = MyView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        myView.backgroundColor = UIColor.green
+       
+        myView.transform = CGAffineTransform.init(rotationAngle:  CGFloat(Double.pi/4))
+        
+        self.view.backgroundColor = UIColor.gray
+        self.view.addSubview(myView)
+    }
+    
+    
+```
+
+---
+## 参考
+
+[Quartz 2D Programming Guide](https://developer.apple.com/library/content/documentation/GraphicsImaging/Conceptual/drawingwithquartz2d/Introduction/Introduction.html)
+
+
+
+---
+
+## 动画
+
+``` swift
+    override func loadView() {
+        super.loadView()
+        let myView = MyView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        myView.backgroundColor = UIColor.green
+       
+        UIView.animate(withDuration: 3){
+            myView.transform = CGAffineTransform.init(rotationAngle:  CGFloat(Double.pi/4))
+        }
+        
+        self.view.backgroundColor = UIColor.gray
+        self.view.addSubview(myView)
+    }
+    
+```
+
+---
+
+## 参考
+
+[Core Animation Programming Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html)
+
+[Animating SceneKit Content](https://developer.apple.com/documentation/scenekit/animation/animating_scenekit_content)
+
 
 
 
