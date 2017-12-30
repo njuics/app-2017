@@ -1,4 +1,4 @@
 # Projects
 
-1. [项目名称](http://github.com/......) , 学号
-1. [项目名称](http://github.com/......) , 学号
+1. [Readit](https://github.com/brucewayne0/myReadit.git) , 151220031
+
