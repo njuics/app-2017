@@ -7,3 +7,4 @@
 1. [TimeFarm](https://github.com/triumphalLiu/TimeFarm.git) , 151220063
 1. [你画我猜](https://github.com/AlexYinHan/Let-s-Draw.git), 151220151
 1. [RHPlayer](https://github.com/RailgunHamster/RHPlayer.git) , 151220114
+1. [日迹](https://github.com/asinmhk/DayRecorder.git) , 151220157 11
