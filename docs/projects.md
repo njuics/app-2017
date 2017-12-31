@@ -5,6 +5,6 @@
 1. [Readit](https://github.com/brucewayne0/myReadit.git) , 151220031
 1. [MyCloset](https://github.com/rubychen0611/MyCloset.git) , 151220017
 1. [TimeFarm](https://github.com/triumphalLiu/TimeFarm.git) , 151220063
-1. [Äã»­ÎÒ²Â](https://github.com/AlexYinHan/Let-s-Draw.git), 151220151
+1. [ä½ ç”»æˆ‘çŒœ](https://github.com/AlexYinHan/Let-s-Draw.git), 151220151
 1. [RHPlayer](https://github.com/RailgunHamster/RHPlayer.git) , 151220114
-1. [ÈÕ¼£](https://github.com/asinmhk/DayRecorder.git) , 151220157 11
+1. [æ—¥è¿¹](https://github.com/asinmhk/DayRecorder.git) , 151220157 11
