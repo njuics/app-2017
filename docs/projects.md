@@ -10,3 +10,4 @@
 1. [日迹](https://github.com/asinmhk/DayRecorder.git) , 151220157
 1. [MoodPocket](https://github.com/zengbingjie/MoodPocket.git) , 151220004
 1. [Muti-calendar](https://github.com/nimrodzhang/Muti-calendar.git) , 151220161
+1. [AllIn](https://github.com/challvy/app-2017f-AllIn.git), 151220136-151220169
