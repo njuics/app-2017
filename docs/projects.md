@@ -11,3 +11,5 @@
 1. [MoodPocket](https://github.com/zengbingjie/MoodPocket.git) , 151220004
 1. [Muti-calendar](https://github.com/nimrodzhang/Muti-calendar.git) , 151220161
 1. [ElephantNote](https://github.com/youzi1984/ElephantNote.git) , 151220035
+1. [Weather](https://github.com/d289760860/Weather.git) , 151220099
+1. [KeepAccounts_zxy](https://github.com/ZhuXiuyu/KeepAccunts_zxy) , 141220164
