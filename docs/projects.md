@@ -10,6 +10,7 @@
 1. [日迹](https://github.com/asinmhk/DayRecorder.git) , 151220157
 1. [MoodPocket](https://github.com/zengbingjie/MoodPocket.git) , 151220004
 1. [Muti-calendar](https://github.com/nimrodzhang/Muti-calendar.git) , 151220161
+1. [御·览](https://github.com/thunderning/NovelReader) , 151220125
 1. [Mydays](https://github.com/labman010/Mydays.git) , 151220147
 1. [个性化音视频剪辑](https://github.com/REXYXX/Regas.git), 151220154
 1. [AllIn](https://github.com/challvy/app-2017f-AllIn.git), 151220136-151220169
