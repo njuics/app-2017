@@ -1,0 +1,148 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../../reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="../../reveal.js/css/theme/white.css" id="theme">
+    <link rel="stylesheet" href="../../reveal.js/lib/css/zenburn.css">    
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="README.md"  
+        data-separator="---"  
+        data-separator-vertical="~~"  
+        data-separator-notes="^Note:"  
+        data-charset="utf-8">
+     </section>
+      </div>
+    </div>
+    <script src="../../reveal.js/lib/js/head.min.js"></script>    
+    <script src="../../reveal.js/js/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: '../../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '../../reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '../../reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '../../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '../../reveal.js/plugin/notes/notes.js' },
+          { src: '../../reveal.js-menu/menu.js'},
+          { src: '../../reveal.js-plugins/chalkboard/chalkboard.js' }
+        ],
+				options: {
+  					"highlightTheme": "darkula"
+				},
+        menu: {
+        // Specifies which side of the presentation the menu will 
+        // be shown. Use 'left' or 'right'.
+        side: 'left',
+
+        // Add slide numbers to the titles in the slide list.
+        // Use 'true' or format string (same as reveal.js slide numbers)
+        numbers: false,
+
+        // Specifies which slide elements will be used for generating
+        // the slide titles in the menu. The default selects the first
+        // heading element found in the slide, but you can specify any
+        // valid css selector and the text from the first matching
+        // element will be used.
+        // Note: that a section data-menu-title attribute or an element
+        // with a menu-title class will take precedence over this option
+        titleSelector: 'h1, h2, h3, h4, h5, h6',
+
+        // If slides do not have a matching title, attempt to use the
+        // start of the text content as the title instead
+        useTextContentForMissingTitles: false,
+
+        // Hide slides from the menu that do not have a title.
+        // Set to 'true' to only list slides with titles.
+        hideMissingTitles: false,
+
+        // Add markers to the slide titles to indicate the 
+        // progress through the presentation
+        markers: false,
+
+        // Specify custom panels to be included in the menu, by
+        // providing an array of objects with 'title', 'icon'
+        // properties, and either a 'src' or 'content' property.
+        custom: false,
+
+        // Specifies the themes that will be available in the themes
+        // menu panel. Set to 'false' to hide themes panel.
+        themes: [
+          { name: 'Black', theme: '../../reveal.js/css/theme/black.css' },
+          { name: 'White', theme: '../../reveal.js/css/theme/white.css' },
+          { name: 'League', theme: '../../reveal.js/css/theme/league.css' },
+          { name: 'Sky', theme: '../../reveal.js/css/theme/sky.css' },
+          { name: 'Beige', theme: '../../reveal.js/css/theme/beige.css' },
+          { name: 'Simple', theme: '../../reveal.js/css/theme/simple.css' },
+          { name: 'Serif', theme: '../../reveal.js/css/theme/serif.css' },
+          { name: 'Blood', theme: '../../reveal.js/css/theme/blood.css' },
+          { name: 'Night', theme: '../../reveal.js/css/theme/night.css' },
+          { name: 'Moon', theme: '../../reveal.js/css/theme/moon.css' },
+          { name: 'Solarized', theme: '../../reveal.js/css/theme/solarized.css' }
+        ],
+
+        // Specifies if the transitions menu panel will be shown.
+        transitions: true,
+
+        // Adds a menu button to the slides to open the menu panel.
+        // Set to 'false' to hide the button.
+        openButton: true,
+
+        // If 'true' allows the slide number in the presentation to
+        // open the menu panel. The reveal.js slideNumber option must 
+        // be displayed for this to take effect
+        openSlideNumber: false,
+
+        // If true allows the user to open and navigate the menu using
+        // the keyboard. Standard keyboard interaction with reveal
+        // will be disabled while the menu is open.
+        keyboard: true,
+
+        // Normally the menu will close on user actions such as
+        // selecting a menu item, or clicking the presentation area.
+        // If 'true', the sticky option will leave the menu open
+        // until it is explicitly closed, that is, using the close
+        // button or pressing the ESC or m key (when the keyboard 
+        // interaction option is enabled).
+        sticky: false,
+
+        // If 'true' standard menu items will be automatically opened
+        // when navigating using the keyboard. Note: this only takes 
+        // effect when both the 'keyboard' and 'sticky' options are enabled.
+        autoOpen: true,
+
+        // If 'true' the menu will not be created until it is explicitly
+        // requested by calling RevealMenu.init(). Note this will delay
+        // the creation of all menu panels, including custom panels, and
+        // the menu button.
+        delayInit: false
+      },
+      chalkboard: { 
+        src: null,
+        readOnly: undefined, 
+        toggleChalkboardButton: { left: "100px", bottom: "30px", top: "auto", right: "auto" },
+        toggleNotesButton: { left: "150px", bottom: "30px", top: "auto", right: "auto" },
+        transition: 800,
+        theme: "chalkboard",
+        // configuration options for notes canvas and chalkboard
+        color: [ 'rgba(0,0,255,1)', 'rgba(255,255,255,0.5)' ],
+        background: [ 'rgba(127,127,127,.1)' , '../../reveal.js-plugins/chalkboard/img/blackboard.png' ],
+        pen:  [ 'url(../../reveal.js-plugins/chalkboard/img/boardmarker.png), auto', 'url(../../reveal.js-plugins/chalkboard/img/chalk.png), auto' ],
+      },
+      keyboard: {
+	      67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+	      66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+	      46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+	      8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+	      68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+	    },
+      });
+    </script>
+  </body>
+</html>
