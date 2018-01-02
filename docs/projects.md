@@ -11,6 +11,7 @@
 1. [日迹](https://github.com/asinmhk/DayRecorder.git) , 151220157
 1. [MoodPocket](https://github.com/zengbingjie/MoodPocket.git) , 151220004
 1. [Muti-calendar](https://github.com/nimrodzhang/Muti-calendar.git) , 151220161
+1. [Calabash](https://github.com/meibanfa/Calabash.git), 141220106, 141220126
 1. [CircleGame](https://github.com/GreensHD/CircleGame.git) , 141220074
 1. [御·览](https://github.com/thunderning/NovelReader) , 151220125
 1. [Mydays](https://github.com/labman010/Mydays.git) , 151220147
