@@ -27,4 +27,4 @@
 1. [Weather](https://github.com/d289760860/Weather.git) , 151220099
 1. [KeepAccounts_zxy](https://github.com/ZhuXiuyu/KeepAccunts_zxy) , 141220164
 1. [Mushare](https://github.com/Fayedy/Mushare) , 151220025 & 151220104
-1. [二维码的生成与扫描](https://github.com/JunkaiLee/2Dcode.git) , 141220055
+1. [二维码的生成与扫描](https://github.com/JunkaiLee/2Dcode.git) , 141220055，（Overdue）
